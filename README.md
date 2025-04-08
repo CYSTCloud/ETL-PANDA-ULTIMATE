@@ -1,4 +1,38 @@
 
+# ETL Projet Pandémies
+
+Ce projet implémente un processus ETL (Extract, Transform, Load) complet pour l'analyse des données de pandémies, notamment COVID-19 et MPOX.
+
+## Prérequis
+
+### Environnement
+- Python 3.8 ou supérieur
+- MySQL 8.0 ou supérieur
+- Jupyter Notebook
+
+### Installation
+
+1. Cloner le dépôt :
+   ```bash
+   git clone https://github.com/CYSTCloud/ETL-PANDA-ULTIMATE.git
+   cd ETL-PANDA-ULTIMATE
+   ```
+
+2. Installer les dépendances :
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Configurer la base de données MySQL :
+   - Créer une base de données nommée `epiviz`
+   - Les paramètres de connexion peuvent être modifiés dans le fichier `config.py`
+
+4. Télécharger les données brutes :
+   - Placer les fichiers CSV sources dans le dossier `donnees/brutes/`
+   - Sources des données :
+     - COVID-19 : [JHU CSSE COVID-19 Data](https://github.com/CSSEGISandData/COVID-19)
+     - MPOX : [Our World in Data - Monkeypox](https://github.com/owid/monkeypox)
+     - Worldometer : [Worldometer Coronavirus](https://www.worldometers.info/coronavirus/)
 
 ## Structure du projet
 
