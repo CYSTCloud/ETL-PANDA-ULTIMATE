@@ -1,0 +1,26 @@
+# Bibliothèques de base pour la manipulation de données
+pandas==2.0.0
+numpy==1.24.3
+
+# Bibliothèques pour la visualisation
+matplotlib==3.7.1
+seaborn==0.12.2
+
+# Bibliothèques pour le traitement des données
+scikit-learn==1.2.2
+
+# Bibliothèques pour la connexion à la base de données
+mysql-connector-python==8.0.33
+sqlalchemy==2.0.9
+
+# Bibliothèques pour les notebooks Jupyter
+jupyter==1.0.0
+notebook==6.5.4
+ipykernel==6.22.0
+
+# Bibliothèques pour la manipulation de fichiers
+openpyxl==3.1.2
+pyarrow==11.0.0
+
+# Bibliothèques pour les tests
+pytest==7.3.1
