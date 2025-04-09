@@ -30,6 +30,9 @@ var/
 *.rar
 *.tar.gz
 
+# Fichiers CSV bruts
+donnees/brutes/*.csv
+
 # Fichiers de configuration locaux
 config_local.py
 .env
